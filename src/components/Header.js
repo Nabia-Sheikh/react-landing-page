@@ -52,7 +52,7 @@ const Header = () => {
                 </a>
               </li>
             </ul>
-            <i className="bi bi-x mobile-nav-toggle" onClick = {mobileNav}  />
+            <i className="bi bi-list mobile-nav-toggle" onClick = {mobileNav}  />
           </nav>
         </Container>
       </header>
