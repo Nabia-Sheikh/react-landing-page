@@ -20,7 +20,7 @@ const Pricing = () => {
         <div className="box">
           <h3>Free Plan</h3>
           <h4>
-            <sup>$</sup>0<span>per month</span>
+            <sup>RS</sup>0<span>per month</span>
           </h4>
           <ul>
             <li>
@@ -50,7 +50,7 @@ const Pricing = () => {
         <div className="box featured">
           <h3>Business Plan</h3>
           <h4>
-            <sup>$</sup>29<span>per month</span>
+            <sup>RS</sup>10000<span>per month</span>
           </h4>
           <ul>
             <li>
@@ -79,7 +79,7 @@ const Pricing = () => {
         <div className="box">
           <h3>Developer Plan</h3>
           <h4>
-            <sup>$</sup>49<span>per month</span>
+            <sup>RS</sup>20000<span>per month</span>
           </h4>
           <ul>
             <li>
