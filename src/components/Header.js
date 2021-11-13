@@ -8,6 +8,12 @@ const Header = () => {
      (pState) => !pState
    )
   }
+
+  function jumpTo() {
+    if (showNav) {
+       setShow((pState) => !pState);
+    }
+  }
   return (
     <div>
       <header id="header" className="fixed-top ">
@@ -18,32 +24,48 @@ const Header = () => {
           <nav id="navbar" className={showNav ? " navbar-mobile " : "navbar"}>
             <ul>
               <li>
-                <a className="nav-link scrollto active" href="#hero">
+                <a
+                  className="nav-link scrollto active"
+                  href="#hero"
+                  onClick={jumpTo}
+                >
                   Home
                 </a>
               </li>
               <li>
-                <a className="nav-link scrollto" href="#about">
+                <a className="nav-link scrollto" href="#about" onClick={jumpTo}>
                   About
                 </a>
               </li>
               <li>
-                <a className="nav-link scrollto" href="#services">
+                <a
+                  className="nav-link scrollto"
+                  href="#services"
+                  onClick={jumpTo}
+                >
                   Services
                 </a>
               </li>
               <li>
-                <a className="nav-link scrollto" href="#team">
+                <a className="nav-link scrollto" href="#team" onClick={jumpTo}>
                   Team
                 </a>
               </li>
               <li>
-                <a className="nav-link scrollto" href="#contact">
+                <a
+                  className="nav-link scrollto"
+                  href="#contact"
+                  onClick={jumpTo}
+                >
                   Contact
                 </a>
               </li>
               <li>
-                <a className="getstarted scrollto" href="#about">
+                <a
+                  className="getstarted scrollto"
+                  href="#about"
+                  onClick={jumpTo}
+                >
                   Get Started
                 </a>
               </li>
